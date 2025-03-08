@@ -1,0 +1,184 @@
+/* -Estilos globales */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:monospace;
+    text-align: center;
+}
+
+/* Header */
+header{
+    padding-top: 20px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.menu{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,33,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 10px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    list-style: none;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(49, 48, 48);
+}
+
+
+/* Main */
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+/* Footer */
+footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+
+/* -Pagina de Contacto */
+
+#contacto{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#formulario{
+    
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 20px;
+    background-color: re;
+    
+   
+}
+
+
+input{
+    background-color: none;
+    padding: 10px;
+}
+
+textarea{
+    padding: 10px;
+}
+
+
+#formulario button{
+    width: 80px;
+    padding: 5px;
+    
+    background-color: aliceblue;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    margin-left: 45%;
+      
+}
+
+#formulario button:hover{
+    background: rgba(0,212,255,1);
+}
+
+
+
+/* -Pagina de Servicios */
+
+/* servicios */
+
+#servicios{
+    padding-top: 50px ;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#servicios div{
+    background-color: aliceblue;
+    width: 300px;
+    height: 200px;
+    padding-top: 20px;
+}
+
+#servicios div:hover{
+    background-color: rgb(152, 219, 233);
+}
+#servicios div ul{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+
+/* Pagina de SobreNosotros */
+
+/* Seccion misionVision */
+
+#misionVision{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 150px;
+
+}
+
+#misionVision div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    line-height: 2;
+}
+
+#misionVision div p{
+    font-size: 15px;
+    
+   
+}
+
+/* Historia */
+#historia{
+    display: flex;
+    justify-content: center;
+}
+
+#historia div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    font-size: 18px;
+    line-height: 2;
+}
+
+#historia div p{
+    text-align: start;
+}
